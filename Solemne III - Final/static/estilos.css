@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19.2px 18px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+img.Logo{
+    width: 3cm;
+    height: 1.5cm;
+}
+
+body{
+    margin: 0;
+    background-color: silver;
+}
+
+h4.Go{
+    color: black;
+    position: absolute;
+    bottom: 320px;
+    left: 400px;
+}
+h4.Stop{
+    color: black;
+    position: absolute;
+    bottom: 220px;
+    left: 410px;
+}
+
+img.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1,h3,a,th,li,td{
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    text-align: center;
+}
+
+
+.monitor{
+    position: absolute;
+    left: 420px;
+}
+
+.alerta{
+    position: absolute;
+    left: 700px;
+}
+
+.semaforo{
+    position: absolute;
+    left: 720px;
+    top: 230px;
+}
+
+.arquitectura_red{
+    height: 440px;
+    width: 900px;
+}
